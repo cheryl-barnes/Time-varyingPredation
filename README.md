@@ -1,6 +1,7 @@
 # Time-varying predation as a modifier of constant natural mortality for Gulf of Alaska walleye pollock <br><br>
 
-<b> Citation: </b>: Dorn MW and CL Barnes. In revision. Time-varying predation as a modifier of constant natural mortality for Gulf of Alaska walleye pollock. Fish Res. VSI Natural Mortality. Forthcoming. <br><br>
+## Citation
+Dorn MW and CL Barnes. In revision. Time-varying predation as a modifier of constant natural mortality for Gulf of Alaska walleye pollock. Fish Res. VSI Natural Mortality. Forthcoming. <br><br>
 
 <b> Martin W. Dorn </b><br>
 Alaska Fisheries Science Center, National Marine Fisheries Service (NOAA) <br>
@@ -11,12 +12,12 @@ School of Aquatic and Fishery Sciences, University of Washington <br>
 cheryl.barnes@noaa.gov <br>
 
 ## Overview
-This repository details the methods used to estimate age- and year-specific predation on Walleye Pollock (<i>Gadus chalcogrammus</i>) in the Gulf of Alaska (MT per year; 1990 to 2019). Pollock predators included: Arrowtooth Flounder (<i>Atheresthes stomias</i>), Pacific Cod (<i>Gadus macrocephalus</i>), Pacific Halibut (<i>Hippoglossus stenolepis</i>), Sablefish (<i>Anoplopoma fimbria</i>), and Walleye Pollock conspecifics. We used predation indices to test time-varying natural mortality within the stock assessment model for Gulf of Alaska pollock.
+This repository details the methods used to estimate age- and year-specific predation on Walleye Pollock (<i>Gadus chalcogrammus</i>) in the Gulf of Alaska (MT per year; 1990 to 2019). Pollock predators included: Arrowtooth Flounder (<i>Atheresthes stomias</i>), Pacific Cod (<i>Gadus macrocephalus</i>), Pacific Halibut (<i>Hippoglossus stenolepis</i>), Sablefish (<i>Anoplopoma fimbria</i>), and Walleye Pollock conspecifics. We used predation indices to test the effects of including time-varying natural mortality within the stock assessment model for Gulf of Alaska pollock.
 
 ## File Structure
 Input data (survey and food habits) can be found in Folder 1 ('1_Data' folder). Folders 2 through 5 specify analyses for each component of the predation index. Folder 6 contains predation indices (all predators combined) for the area encompassed by the main stock assessment model for Gulf of Alaska pollock, culminating in Figure 1 (Dorn and Barnes, in revision). 
 
-All analyses were conducted using R v3.6 (R Core Team 2018).
+All analyses were conducted using R v4.1 (R Core Team 2021).
 
 ## Data Sources
 <b>Total Predator Biomass</b>: Total biomass estimates were obtained from the most recent stock assessment for each groundfish predator (Barbeaux et al. 2019, Dorn et al. 2019, Hanselman et al. 2019, Spies et al. 201, Stewart and Hicks 2020). Coast-wide estimates for Pacific Halibut were adjusted to reflect biomass in the Gulf of Alaska.
@@ -29,9 +30,10 @@ All analyses were conducted using R v3.6 (R Core Team 2018).
 This project was funded by the Pollock Conservation Cooperative Research Center (G00009488) and the Rasmuson Fisheries Research Center associated with the University of Alaska Fairbanks. An anonymous donor supplied additional funds via the Northern Gulf of Alaska Applied Research Award. The University of Alaska (Juneau Fisheries Division and Southeast Sitka Campus) provided facilities and additional support. 
 
 ## Acknowledgments
-This work was supported in part by the Pollock Conservation Cooperative Research Center (G00009488) and Rasmuson Fisheries Research Center associated with the University of Alaska Fairbanks. Discussions with Anne Beaudreau helped guide the direction of this research. We appreciate assistance with data acquisition and processing from Kerim Aydin, Steve Barbeaux, Troy Buckley, Dana Hanselman, Tom Kong, Ned Laman, Geoff Lang, Wayne Palsson, and Ian Stewart. Paul Spencer, Cody Szuwalski, Anne Hollowed, and two anonymous reviewers provided valuable comments to improve upon an earlier draft of this manuscript. <br>
+Discussions with Anne Beaudreau helped guide the direction of this research. We appreciate assistance with data acquisition and processing from Kerim Aydin, Steve Barbeaux, Troy Buckley, Dana Hanselman, Tom Kong, Ned Laman, Geoff Lang, Wayne Palsson, and Ian Stewart. Paul Spencer, Cody Szuwalski, Anne Hollowed, and two anonymous reviewers provided valuable comments to improve upon an earlier draft of this manuscript. <br>
 
 ## References 
+### Methods
 &#8212; Barnes CL, Beaudreau AH, Dorn MW, Holsman KK, and Mueter FJ. 2020. Development of a predation index to assess trophic stability in the Gulf of Alaska. Ecol Appl. 30(7):e02141.<br>
 
 ### Stock Assessments
@@ -59,4 +61,4 @@ This work was supported in part by the Pollock Conservation Cooperative Research
 ### Miscellaneous
 &#8212; Brodziak J. 2012. Fitting length-weight relationships with linear regression using the log-transformed allometric model with bias-correction. NOAA Technical Memorandum PIFSC-H-12-03. <br>
 &#8212; Chipps SR and JE Garvey. 2007. Assessment of diets and feeding patterns. In: Analysis and interpretation of freshwater fisheries data. CS Guy and ML Brown, eds. Bethesda, MD. Amer Fish Soc. 473–514. <br>
-&#8212; R Core Team. 2018. R: a language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org/.
+&#8212; R Core Team. 2021. R: a language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org/.
